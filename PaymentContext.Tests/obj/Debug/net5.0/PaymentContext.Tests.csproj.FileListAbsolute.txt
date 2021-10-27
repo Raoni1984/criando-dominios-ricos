@@ -102,3 +102,4 @@ C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentCo
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\ref\PaymentContext.Tests.dll
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.pdb
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.genruntimeconfig.cache
+C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Flunt.dll

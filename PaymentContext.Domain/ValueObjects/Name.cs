@@ -17,6 +17,11 @@ namespace PaymentContext.Domain.ValueObjects
             {
                 AddNotification("LastName","Nome Invalido");
             }
+
+            ////TODO: Mudar para Fluent Validator
+            // AddNotifications(new Contract()
+            //     .Requires()
+            // );
         }
 
         public string FirstName { get; private set; }

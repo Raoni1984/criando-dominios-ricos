@@ -27,6 +27,9 @@ namespace PaymentContext.Domain.Entities
             OwnerDocument = ownerDocument;
             OwnerAddress = ownerAddress;
             OwnerEmail = ownerEmail;
+
+            //TODO:
+            //Add Fluent Validator validation
         }
 
         public string Number { get; private set; }

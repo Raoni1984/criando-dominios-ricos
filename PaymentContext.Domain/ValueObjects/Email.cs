@@ -7,7 +7,15 @@ namespace PaymentContext.Domain.ValueObjects
         public Email(string emailAddress)
         {
             EmailAddress = emailAddress;
+
+            ////TODO: Mudar para Fluent Validator
+            // AddNotifications(new Contract()
+            //     .Requires()
+            //     .IsEmail(emailAddress, "Email.Address", "E-mail invalido")
+            // );
         }
+
+        
 
         public string EmailAddress { get; private set; }
 

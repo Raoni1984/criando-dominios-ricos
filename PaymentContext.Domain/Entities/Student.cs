@@ -29,12 +29,29 @@ namespace PaymentContext.Domain.Entities
 
         public void AddSubscrption(Subscription subscription)
         {
-            foreach(var sb in Subscriptions)
-            {
-                sb.DeactiveSubscription();
-            }
-            _subscriptions.Add(subscription);
-        }
+            var hasSubscription = false;
 
+            foreach(var sb in _subscriptions)
+            {
+                if(sb.Active)
+                    hasSubscription = true;
+            }
+
+            ////TODO: Mudar para Fluent Validator
+            // AddNotifications(new Contract()
+            //     .Requires()
+            //     .IsFalse(hasSubscription, "Student.Subscription", "Ja tem assinatura ativa!")
+            // );
+
+            //Alternativa
+            if(hasSubscription)
+            {
+                AddNotification("Student.Subscription", "Ja tem assinatura ativa!");
+            }
+            else
+            {
+                _subscriptions.Add(subscription);
+            }
+        }
     }
 }

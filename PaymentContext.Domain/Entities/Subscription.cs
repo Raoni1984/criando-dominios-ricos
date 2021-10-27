@@ -39,7 +39,13 @@ namespace PaymentContext.Domain.Entities
 
         public void AddPayment(Payment payment)
         {
+            ////TODO: Mudar para Fluent Validator
+            // AddNotifications(new Contract()
+            //     .Requires()
+            //     .IsGreaterThan(DateTime.Now, payment.PaidDate, "Subscriptions.Payments", "A data do pagamento é invalida")
+            // );
+
             _payments.Add(payment);
-        } 
+        }
     }
 }

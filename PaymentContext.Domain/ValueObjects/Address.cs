@@ -4,6 +4,19 @@ namespace PaymentContext.Domain.ValueObjects
 {
     public class Address : ValueObject
     {
+        public Address(string rua, string numero, string complemento, string bairro, string cEP, string cidade, string estado, string pais)
+        {
+            Rua = rua;
+            Numero = numero;
+            Complemento = complemento;
+            Bairro = bairro;
+            CEP = cEP;
+            Cidade = cidade;
+            Estado = estado;
+            Pais = pais;
+
+            ////TODO: Implementar para Fluent Validator
+        }
 
         public string Rua { get; private set; }
         public string Numero { get; private set; }
