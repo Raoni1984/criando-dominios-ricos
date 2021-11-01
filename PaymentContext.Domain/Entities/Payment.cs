@@ -13,7 +13,7 @@ namespace PaymentContext.Domain.Entities
             DateTime expireDate,
             decimal total,
             decimal totalPaid,
-            Name ownerName,
+            string ownerName,
             Document ownerDocument,
             Address ownerAddress,
             Email ownerEmail)
@@ -28,8 +28,7 @@ namespace PaymentContext.Domain.Entities
             OwnerAddress = ownerAddress;
             OwnerEmail = ownerEmail;
 
-            //TODO:
-            //Add Fluent Validator validation
+            //TODO: Add Fluent Validator validation
         }
 
         public string Number { get; private set; }
@@ -37,7 +36,7 @@ namespace PaymentContext.Domain.Entities
         public DateTime ExpireDate { get; private set; }
         public decimal Total { get; private set; }
         public decimal TotalPaid { get; private set; }
-        public Name OwnerName { get; private set; }
+        public string OwnerName { get; private set; }
         public Document OwnerDocument { get; private set; }
         public Address OwnerAddress { get; private set; }
         public Email OwnerEmail { get; private set; }

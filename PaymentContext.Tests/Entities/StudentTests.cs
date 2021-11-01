@@ -6,11 +6,29 @@ namespace PaymentContext.Tests
     public class StudentTests
     {
         [TestMethod]
-        public void AdicionarAssinaturaTest()
+        public void AddNewSubscription_HasAlreadyOne_ShouldReturnError()
         { 
-        //TODO
-            
+        //TODO: test
+
+        Assert.IsTrue(true);
         }
+
+        [TestMethod]
+        public void AddNewSubscription_HasNone_ShouldReturnSuccess()
+        { 
+        //TODO: test
+        Assert.IsTrue(true);
+        }
+
+        [TestMethod]
+        public void AddNewSubscription_HasNoPayment_ShouldReturnError()
+        { 
+        //TODO: test
+
+        Assert.IsTrue(true);
+        }
+
+        
     }
 }
 

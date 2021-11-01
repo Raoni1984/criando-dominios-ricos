@@ -21,7 +21,7 @@ namespace PaymentContext.Domain.ValueObjects
         public EDocType Type { get; set; }
         // public bool IsValid { get; set; }
 
-        private bool ValidateDoc(){
+        public bool ValidateDoc(){
 
             if(Type == EDocType.CNPJ && Number.Length == 14)
             {

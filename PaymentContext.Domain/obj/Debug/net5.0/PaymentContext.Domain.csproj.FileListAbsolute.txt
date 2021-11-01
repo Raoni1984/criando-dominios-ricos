@@ -9,7 +9,7 @@ C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentCo
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.AssemblyInfoInputs.cache
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.AssemblyInfo.cs
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.CoreCompileInputs.cache
-C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.CopyComplete
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.dll
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\ref\PaymentContext.Domain.dll
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.pdb
+C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.CopyComplete

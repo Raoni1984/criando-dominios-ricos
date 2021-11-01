@@ -27,7 +27,7 @@ namespace PaymentContext.Domain.Entities
         public Address Address { get; private set; }
         public IReadOnlyCollection<Subscription> Subscriptions { get { return _subscriptions.ToArray(); } }
 
-        public void AddSubscrption(Subscription subscription)
+        public void AddSubscription(Subscription subscription)
         {
             var hasSubscription = false;
 
@@ -37,7 +37,7 @@ namespace PaymentContext.Domain.Entities
                     hasSubscription = true;
             }
 
-            ////TODO: Mudar para Fluent Validator
+            //TODO: Mudar para Fluent Validator
             // AddNotifications(new Contract()
             //     .Requires()
             //     .IsFalse(hasSubscription, "Student.Subscription", "Ja tem assinatura ativa!")
