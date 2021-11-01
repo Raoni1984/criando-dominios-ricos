@@ -12,4 +12,3 @@ C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentCo
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.dll
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\ref\PaymentContext.Domain.dll
 C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.pdb
-C:\Users\raoni\source\repos\ModelandoDominiosRicos\1984\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.CopyComplete
